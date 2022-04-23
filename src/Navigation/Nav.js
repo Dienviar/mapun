@@ -16,16 +16,16 @@ const Nav = ({pathname, openMunicipality, setOpenMunicipality, openGovernment, s
             <div className='w-full h-full flex justify-center items-center cursor-pointer duration-300'>
                 <p className={`${openMunicipality ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>
                     {
-                    pathname === "/municipality/economy" ? <span className='currentPage px-3'>Economy</span>
-                    : pathname === "/municipality/tourism" ? <span className='currentPage px-3'>Tourism</span>
-                    : pathname === "/municipality/education" ? <span className='currentPage px-3'>Education</span>
-                    : pathname === "/municipality/mapunday" ? <span className='currentPage px-3'>Mapun Day</span>
-                    : "Municipality"
+                        pathname === "/municipality/economy" ? <span className='currentPage px-3'>Economy</span>
+                        : pathname === "/municipality/tourism" ? <span className='currentPage px-3'>Tourism</span>
+                        : pathname === "/municipality/education" ? <span className='currentPage px-3'>Education</span>
+                        : pathname === "/municipality/mapunday" ? <span className='currentPage px-3'>Mapun Day</span>
+                        : "Municipality"
                     }
                 </p>
             </div>
 
-            <div className={`relative w-full ${openMunicipality ? 'h-80 duration-300' : 'h-0 duration-0'} bg-rgba_black`}>
+            <div className={`relative w-full ${openMunicipality ? 'h-80 duration-300' : 'h-0 duration-0'} bg-rgba_black_05`}>
                 <div className={`w-full h-auto ${openMunicipality ? 'visible' : 'invisible'}`}>
                     <NavLink to="/municipality/economy" 
                     className={`relative w-full ${openMunicipality ? 'h-20 duration-300' : 'h-0 duration-0'} px-5 flex items-center justify-center 
@@ -57,7 +57,7 @@ const Nav = ({pathname, openMunicipality, setOpenMunicipality, openGovernment, s
                 </p>
             </div>
 
-            <div className={`relative w-full ${openGovernment ? 'h-40 duration-300' : 'h-0 duration-0'} bg-rgba_black`}>
+            <div className={`relative w-full ${openGovernment ? 'h-40 duration-300' : 'h-0 duration-0'} bg-rgba_black_05`}>
                 <div className={`w-full h-auto ${openGovernment ? 'visible' : 'invisible'}`}>
                     <NavLink to="/government/officials" 
                     className={`relative w-full ${openGovernment ? 'h-20 duration-300' : 'h-0 duration-0'} px-5 flex items-center justify-center 

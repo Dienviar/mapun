@@ -19,6 +19,12 @@ code {
     monospace;
 }
 
+@media screen and (max-width: 250px){
+  body{
+    width: 250px;
+  }
+}
+
 /* a{
   color: #fff;
   text-transform: uppercase;

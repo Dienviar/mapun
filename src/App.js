@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <nav className='sticky top-0 w-full h-20 z-50 bg-rgba_black shadow-xl select-none'>
+      <nav className='sticky top-0 w-full h-20 z-50 bg-rgba_black_05 shadow-xl select-none'>
         {/* Logo holder */}
         <div className='absolute left-5 w-20 h-full'>
           <img src={require('./asset/Logo/mapun_logo.png')} alt="Mapun Logo" className='w-full h-full p-1' />

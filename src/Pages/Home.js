@@ -1,10 +1,12 @@
 import React from 'react'
-import Landing from '../Components/Home/Landing'
+import HomeLanding from '../Components/Home/HomeLanding'
+import CityStatistics from '../Components/Home/CityStatistics'
 
 const Home = () => {
   return (
     <main className='relative w-full h-auto'>
-      <Landing/>
+      <HomeLanding/>
+      <CityStatistics/>
     </main>
   )
 }
