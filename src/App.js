@@ -23,11 +23,11 @@ function App() {
   console.log(pathname)
 
   return (
-    <main className='w-auto h-auto m-0 p-0'>
-      <nav className='sticky top-0 w-full h-20 bg-red-500'>
+    <>
+      <nav className='sticky top-0 w-full h-20 z-50 bg-rgba_black shadow-xl select-none'>
         {/* Logo holder */}
-        <div className='absolute left-0 w-20 h-full bg-green-500 '>
-          Logo
+        <div className='absolute left-5 w-20 h-full'>
+          <img src={require('./asset/Logo/mapun_logo.png')} alt="Mapun Logo" className='w-full h-full p-1' />
         </div>
 
         {/* Nav button holder */}
@@ -63,7 +63,7 @@ function App() {
 
         <Route path="/contact" element={<Contact/>} />
       </Routes>
-    </main>
+    </>
   );
 }
 

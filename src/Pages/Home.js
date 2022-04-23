@@ -1,8 +1,11 @@
 import React from 'react'
+import Landing from '../Components/Home/Landing'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <main className='relative w-full h-auto'>
+      <Landing/>
+    </main>
   )
 }
 

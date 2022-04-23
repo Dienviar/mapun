@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Nav = ({pathname, openMunicipality, setOpenMunicipality, openGovernment, setOpenGovernment }) => {
   return (
-    <div className='absolute right-0 w-auto h-full bg-green-500 flex items-center'>
+    <div className='absolute right-0 w-auto h-full flex items-center text-white drop-shadow-xl'>
         <NavLink to="/" className={`${pathname === "/" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>Home</NavLink>
 
         <NavLink to="/about" className={`${pathname === "/about" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>About</NavLink>
@@ -25,7 +25,7 @@ const Nav = ({pathname, openMunicipality, setOpenMunicipality, openGovernment, s
                 </p>
             </div>
 
-            <div className={`relative w-full ${openMunicipality ? 'h-80 duration-300' : 'h-0 duration-0'} bg-red-500`}>
+            <div className={`relative w-full ${openMunicipality ? 'h-80 duration-300' : 'h-0 duration-0'} bg-rgba_black`}>
                 <div className={`w-full h-auto ${openMunicipality ? 'visible' : 'invisible'}`}>
                     <NavLink to="/municipality/economy" 
                     className={`relative w-full ${openMunicipality ? 'h-20 duration-300' : 'h-0 duration-0'} px-5 flex items-center justify-center 
@@ -57,7 +57,7 @@ const Nav = ({pathname, openMunicipality, setOpenMunicipality, openGovernment, s
                 </p>
             </div>
 
-            <div className={`relative w-full ${openGovernment ? 'h-40 duration-300' : 'h-0 duration-0'} bg-red-500`}>
+            <div className={`relative w-full ${openGovernment ? 'h-40 duration-300' : 'h-0 duration-0'} bg-rgba_black`}>
                 <div className={`w-full h-auto ${openGovernment ? 'visible' : 'invisible'}`}>
                     <NavLink to="/government/officials" 
                     className={`relative w-full ${openGovernment ? 'h-20 duration-300' : 'h-0 duration-0'} px-5 flex items-center justify-center 
