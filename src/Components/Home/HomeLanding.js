@@ -9,7 +9,7 @@ const HomeLanding = () => {
           <div className='w-1300px h-500px flex screen1050px:w-full screen1050px:grid screen1050px:h-auto'>
             <div className='w-full h-auto grid'>
               <div className='w-full h-3/5 flex justify-start items-center px-5 screen1050px:h-auto screen1050px:mb-10 screen1050px:mt-56 screen850px:mt-40 screen420px:mb-0'>
-                <p className='text-7xl drop-shadow-0_7_3_rgaba_black_1 text-white font-bold leading-tight select-none break-all screen530px:text-5xl screen530px:leading-snug screen420px:leading-none'>
+                <p className='text-7xl drop-shadow-0_7_3_rgaba_black_1 text-white font-bold leading-tight select-none screen530px:text-5xl screen530px:leading-snug screen420px:leading-none screen420px:break-all'>
                   Welcome to Municipality of Mapun!
                 </p>
               </div>
