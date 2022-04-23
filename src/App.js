@@ -1,24 +1,69 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom'
+import Home from './Pages/Home';
+import About from './Pages/About';
+import News from './Pages/News';
+import Services from './Pages/Services';
+import Economy from './Pages/Municipality/Economy';
+import Tourism from './Pages/Municipality/Tourism';
+import Education from './Pages/Municipality/Education';
+import MapunDay from './Pages/Municipality/MapunDay';
+import Officials from './Pages/Government/Officials';
+import Barangay from './Pages/Government/Barangay';
+import Contact from './Pages/Contact';
+import Nav from './Navigation/Nav';
 
 function App() {
+
+  const { pathname } = useLocation()
+
+  const [openMunicipality, setOpenMunicipality] = useState(false)
+  const [openGovernment, setOpenGovernment] = useState(false)
+
+  console.log(pathname)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='w-auto h-auto m-0 p-0'>
+      <nav className='sticky top-0 w-full h-20 bg-red-500'>
+        {/* Logo holder */}
+        <div className='absolute left-0 w-20 h-full bg-green-500 '>
+          Logo
+        </div>
+
+        {/* Nav button holder */}
+        <div>
+          <Nav 
+            pathname={pathname} 
+            openMunicipality={openMunicipality}
+            setOpenMunicipality={setOpenMunicipality}
+            openGovernment={openGovernment}
+            setOpenGovernment={setOpenGovernment} 
+          />
+        </div>
+
+        {/* Nav Haburger Button */}
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home/>} />
+
+        <Route path="/about" element={<About/>} />
+
+        <Route path="/news" element={<News/>} />
+
+        <Route path="/services" element={<Services/>} />
+
+        <Route path="/municipality/economy" element={<Economy/>} />
+        <Route path="/municipality/tourism" element={<Tourism/>} />
+        <Route path="/municipality/education" element={<Education/>} />
+        <Route path="/municipality/mapunday" element={<MapunDay/>} />
+
+        <Route path="/government/officials" element={<Officials/>} />
+        <Route path="/government/barangay" element={<Barangay/>} />
+
+        <Route path="/contact" element={<Contact/>} />
+      </Routes>
+    </main>
   );
 }
 
