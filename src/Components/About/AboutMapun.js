@@ -6,7 +6,7 @@ const AboutMapun = () => {
         <article className='flex justify-center h-auto w-1000px screen850px:grid'>
             <div className='w-full h-auto p-5'>
                 <div className='flex items-center w-full h-auto'>
-                    <p className='text-5xl font-bold text-blue_matte screen600px:text-4xl'>Location</p>
+                    <p className='text-5xl font-bold text-blue screen600px:text-4xl'>Location</p>
                 </div>
 
                 <div className='w-full h-auto mt-5'>
@@ -30,11 +30,11 @@ const AboutMapun = () => {
             
             <div className='w-full h-full p-5'>
                 <div className='flex items-center w-full h-auto'>
-                    <p className='text-5xl font-bold text-blue_matte screen600px:text-4xl'>Culture</p>
+                    <p className='text-5xl font-bold text-blue screen600px:text-4xl'>Culture</p>
                 </div>   
 
                 <div className='w-full h-auto mt-5'>
-                    <div className='flex w-full h-auto my-2 bg-blue_matte rounded-xl'>
+                    <div className='flex w-full h-auto my-2 bg-blue rounded-xl'>
                         <div className='flex items-center justify-center h-auto px-2 w-28'>
                             <div className='flex items-center justify-center w-full h-28'>
                                 <img src={require('../../asset/AboutPage/about_culture1.png')} alt="Culture 1"/>
@@ -48,7 +48,7 @@ const AboutMapun = () => {
                         </div>
                     </div>                
 
-                    <div className='flex w-full h-auto my-2 bg-blue_matte rounded-xl'>
+                    <div className='flex w-full h-auto my-2 bg-blue rounded-xl'>
                         <div className='flex items-center justify-center h-auto px-2 w-28'>
                             <div className='flex items-center justify-center w-full h-28'>
                                 <img src={require('../../asset/AboutPage/about_culture2.png')} alt="Culture 2"/>
@@ -62,7 +62,7 @@ const AboutMapun = () => {
                         </div>
                     </div>   
 
-                    <div className='flex w-full h-auto my-2 bg-blue_matte rounded-xl'>
+                    <div className='flex w-full h-auto my-2 bg-blue rounded-xl'>
                         <div className='flex items-center justify-center h-auto px-2 w-28'>
                             <div className='flex items-center justify-center w-full h-28'>
                                 <img src={require('../../asset/AboutPage/about_culture3.png')} alt="Culture 3"/>

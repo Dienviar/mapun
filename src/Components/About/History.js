@@ -6,7 +6,7 @@ const History = () => {
         <article className='flex justify-center h-auto w-1000px screen850px:grid'>
             <div className='w-full h-auto p-5'>
                 <div className='flex items-center w-full h-auto'>
-                    <p className='text-5xl font-bold text-blue_matte screen600px:text-4xl'>History</p>
+                    <p className='text-5xl font-bold text-blue screen600px:text-4xl'>History</p>
                 </div>
 
                 <div className='w-full h-auto mt-5'>
