@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mapun/static/css/main.e0f1ff2d.css",
+    "main.js": "/mapun/static/js/main.49174178.js",
+    "static/js/787.e2156492.chunk.js": "/mapun/static/js/787.e2156492.chunk.js",
+    "static/media/mapun_logo.png": "/mapun/static/media/mapun_logo.f92ca5de6e6de74e7ffd.png",
+    "static/media/landing.jpg": "/mapun/static/media/landing.b9a4f2a6fa931b31d2c7.jpg",
+    "static/media/home_landing_bg.jpeg": "/mapun/static/media/home_landing_bg.a91eb8089e8639685ed7.jpeg",
+    "static/media/about_culture1.png": "/mapun/static/media/about_culture1.f8a4cf2427ab811c7cb5.png",
+    "static/media/about_culture3.png": "/mapun/static/media/about_culture3.5dcc924f19b48648d720.png",
+    "static/media/news3.png": "/mapun/static/media/news3.b4deeda7d41d32b23060.png",
+    "static/media/news2.png": "/mapun/static/media/news2.8fdc99a3e220b523191a.png",
+    "static/media/about_culture2.png": "/mapun/static/media/about_culture2.ef59835dc0a9114b7e7d.png",
+    "static/media/news1.png": "/mapun/static/media/news1.c7f2ad9edcc844deaa2b.png",
+    "index.html": "/mapun/index.html",
+    "main.e0f1ff2d.css.map": "/mapun/static/css/main.e0f1ff2d.css.map",
+    "main.49174178.js.map": "/mapun/static/js/main.49174178.js.map",
+    "787.e2156492.chunk.js.map": "/mapun/static/js/787.e2156492.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0f1ff2d.css",
+    "static/js/main.49174178.js"
+  ]
+}
