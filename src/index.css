@@ -93,7 +93,52 @@ code {
 }
 
 .about-landing-bg {
-  background-image: url('./asset//AboutPage/landing.jpg');
+  background-image: url('./asset/AboutPage/landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.service-landing-bg {
+    background-image: url('./asset/ServicesPage/service_landing_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arts_culture{
+  background-image: url('./asset/Services/arts_culture.png');
+}
+
+.finance_legal{
+  background-image: url('./asset/Services/finance_legal.png');
+}
+
+.health_medical {
+  background-image: url('./asset/Services/health_medical.png');
+}
+
+.housing_land {
+  background-image: url('./asset/Services/housing_land.png');
+}
+
+.park_recreation {
+  background-image: url('./asset/Services/park_recreation.png');
+}
+
+.policing_crime {
+  background-image: url('./asset/Services/policing_crime.png');
+}
+
+.tourism_travel {
+  background-image: url('./asset/Services/tourism_travel.png');
+}
+
+.transport_traffic {
+  background-image: url('./asset/Services/transport_traffic.png');
+}
+
+.services-img-bg{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
