@@ -29,7 +29,7 @@ const LatestNews = () => {
             <section>
                 <article className='flex justify-center w-full h-auto mt-10 mb-5'>
                     <div className='flex items-center justify-center h-20 w-1000px'>
-                        <p className='text-4xl font-bold text-black screen600px:text-3xl screen600px:text-center'>Latest From Our <span className='text-blue'>Newsroom</span></p>
+                        <p className='text-4xl font-bold text-semi_black screen600px:text-3xl screen600px:text-center'>Latest From Our <span className='text-blue'>Newsroom</span></p>
                     </div>
                 </article>
 

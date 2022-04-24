@@ -51,6 +51,7 @@ module.exports = {
         'blue' : '#064789',
         'red' : '#82243C',
         'grey' : "#EEEEEE",
+        'semi_black' : "#252323",
       },
       dropShadow: {
         '0_7_3_rgaba_black_1': '0 7px 3px rgba(0, 0, 0, 1)',
