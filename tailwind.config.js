@@ -21,6 +21,7 @@ module.exports = {
         '950px' : '950px',
         '900px' : '900px',
         '1000px' : '1000px',
+        '1100px' : '1100px',
         '1300px' : '1300px',
       },
       height: {
@@ -48,6 +49,7 @@ module.exports = {
         'rgba_white_05' : 'rgba(255,255,255,0.5)',
         'blue' : '#064789',
         'red' : '#82243C',
+        'grey' : "#EEEEEE",
       },
       dropShadow: {
         '0_7_3_rgaba_black_1': '0 7px 3px rgba(0, 0, 0, 1)',
@@ -69,6 +71,7 @@ module.exports = {
       'screen920px' : {'max' : '920px'},
       'screen1020px' : {'max' : '1020px'},
       'screen1050px' : {'max' : '1050px'},
+      'screen1100px' : {'max' : '1100px'},
     },  
   },
   plugins: [],
