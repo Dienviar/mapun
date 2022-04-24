@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mapun/static/css/main.e0f1ff2d.css",
-    "main.js": "/mapun/static/js/main.49174178.js",
+    "main.css": "/mapun/static/css/main.e2069f6f.css",
+    "main.js": "/mapun/static/js/main.096fc00c.js",
     "static/js/787.e2156492.chunk.js": "/mapun/static/js/787.e2156492.chunk.js",
     "static/media/mapun_logo.png": "/mapun/static/media/mapun_logo.f92ca5de6e6de74e7ffd.png",
     "static/media/landing.jpg": "/mapun/static/media/landing.b9a4f2a6fa931b31d2c7.jpg",
@@ -11,14 +11,23 @@
     "static/media/news3.png": "/mapun/static/media/news3.b4deeda7d41d32b23060.png",
     "static/media/news2.png": "/mapun/static/media/news2.8fdc99a3e220b523191a.png",
     "static/media/about_culture2.png": "/mapun/static/media/about_culture2.ef59835dc0a9114b7e7d.png",
+    "static/media/park_recreation.png": "/mapun/static/media/park_recreation.3f35e649d0a05c24603b.png",
     "static/media/news1.png": "/mapun/static/media/news1.c7f2ad9edcc844deaa2b.png",
+    "static/media/transport_traffic.png": "/mapun/static/media/transport_traffic.a422d172ca3797ff0db5.png",
+    "static/media/service_landing_bg.png": "/mapun/static/media/service_landing_bg.938e1b88ec4de9726a97.png",
+    "static/media/arts_culture.png": "/mapun/static/media/arts_culture.b19af6f11c4ed06ffa3f.png",
+    "static/media/tourism_travel.png": "/mapun/static/media/tourism_travel.90c179ac47cc614949ee.png",
+    "static/media/finance_legal.png": "/mapun/static/media/finance_legal.70c689db9515151ee6c4.png",
+    "static/media/policing_crime.png": "/mapun/static/media/policing_crime.5ed01e9791be2517d4e8.png",
+    "static/media/housing_land.png": "/mapun/static/media/housing_land.114d4150bc5c162f4cdb.png",
+    "static/media/health_medical.png": "/mapun/static/media/health_medical.df0cbafc2b6919251f82.png",
     "index.html": "/mapun/index.html",
-    "main.e0f1ff2d.css.map": "/mapun/static/css/main.e0f1ff2d.css.map",
-    "main.49174178.js.map": "/mapun/static/js/main.49174178.js.map",
+    "main.e2069f6f.css.map": "/mapun/static/css/main.e2069f6f.css.map",
+    "main.096fc00c.js.map": "/mapun/static/js/main.096fc00c.js.map",
     "787.e2156492.chunk.js.map": "/mapun/static/js/787.e2156492.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0f1ff2d.css",
-    "static/js/main.49174178.js"
+    "static/css/main.e2069f6f.css",
+    "static/js/main.096fc00c.js"
   ]
 }
