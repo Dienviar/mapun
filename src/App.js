@@ -15,6 +15,7 @@ import Barangay from './Pages/Government/Barangay';
 import Contact from './Pages/Contact';
 import Nav from './Navigation/Nav';
 import NavBurger from './Navigation/NavBurger';
+import Footer from './Footer/Footer'
 
 function App() {
 
@@ -29,12 +30,12 @@ function App() {
     <>
       <nav className='sticky top-0 z-50 w-full h-20 shadow-xl select-none backdrop-blur-3xl bg-rgba_black_05'>
         {/* Logo holder */}
-        <div className='absolute w-20 h-full left-5'>
+        <section className='absolute w-20 h-full left-5'>
           <img src={require('./asset/Logo/mapun_logo.png')} alt="Mapun Logo" className='w-full h-full p-1' />
-        </div>
+        </section>
 
         {/* Nav button holder */}
-        <div className='screen900px:hidden'>
+        <section className='screen900px:hidden'>
           <Nav 
             pathname={pathname} 
             openMunicipality={openMunicipality}
@@ -42,14 +43,14 @@ function App() {
             openGovernment={openGovernment}
             setOpenGovernment={setOpenGovernment} 
           />
-        </div>
+        </section>
 
         {/* Nav Haburger Button */}
-        <div className='hidden screen900px:block'> 
-          <div className='absolute right-0 flex items-center justify-center w-20 h-full'>
+        <section className='hidden screen900px:block'> 
+          <article className='absolute right-0 flex items-center justify-center w-20 h-full'>
             <GiHamburgerMenu onClick={() => setNavBurger(true)} className={`${navBurger && 'hidden'} w-10 h-10 text-white cursor-pointer hover:text-blue duration-300`}/>
             <MdOutlineClose onClick={() => setNavBurger(false)} className={`${navBurger ? 'block' : 'hidden'}  w-10 h-10 text-white cursor-pointer hover:text-red duration-300`}/>
-          </div>
+          </article>
 
           <NavBurger 
             open={navBurger}
@@ -59,7 +60,7 @@ function App() {
             openGovernment={openGovernment}
             setOpenGovernment={setOpenGovernment}            
           />
-        </div>
+        </section>
       </nav>
 
       <Routes>
@@ -81,6 +82,8 @@ function App() {
 
         <Route path="/contact" element={<Contact/>} />
       </Routes>
+
+      <Footer/>
     </>
   );
 }

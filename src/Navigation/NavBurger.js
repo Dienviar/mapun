@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const NavBurger = ({open, pathname, openMunicipality, setOpenMunicipality, openGovernment, setOpenGovernment}) => {
   return (
-    <div className={`fixed ${open ? 'left-0' : '-left-1000px '} flex justify-center top-20 w-full h-570px bg-black duration-300 overflow-y-auto`}>
+    <article className={`fixed ${open ? 'left-0' : '-left-1000px '} flex justify-center top-20 w-full h-570px bg-black duration-300 overflow-y-auto`}>
         <div className='w-full h-auto'>
             <div className='flex items-center w-full h-20'>
                 <NavLink to="/" className={`${pathname === "/" ? 'currentPage' : 'relative navHover'} relative text-xl text-white w-full h-full flex items-center px-5`}>Home</NavLink>
@@ -83,7 +83,7 @@ const NavBurger = ({open, pathname, openMunicipality, setOpenMunicipality, openG
                 <NavLink to="/contact" className={`${pathname === "/contact" ? 'currentPage' : 'relative navHover'} relative text-xl text-white w-full h-full flex items-center px-5`}>Contact</NavLink>
             </div>
         </div>
-    </div>
+    </article>
   )
 }
 
