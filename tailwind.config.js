@@ -13,10 +13,13 @@ module.exports = {
         '300px' : '300px',
         '350px' : '350px',
         '400px' : '400px',
+        '450px' : '450px',
         '500px' : '500px',
-        '550px' : '505px',
+        '550px' : '550px',
         '600px' : '600px',
         '800px' : '800px',
+        '950px' : '950px',
+        '900px' : '900px',
         '1000px' : '1000px',
         '1300px' : '1300px',
       },
@@ -49,6 +52,9 @@ module.exports = {
       dropShadow: {
         '0_7_3_rgaba_black_1': '0 7px 3px rgba(0, 0, 0, 1)',
         '0_5_10_rgaba_black_8' : '0 5px 10px rgba(0, 0, 0, 8)'
+      },
+      flexGrow: {
+        '2': 2
       }
     },
     screens: {
@@ -56,10 +62,12 @@ module.exports = {
       'screen350px' : {'max' : '350px'},
       'screen420px' : {'max' : '420px'},
       'screen530px' : {'max' : '530px'},
+      'screen600px' : {'max' : '600px'},
       'screen650px' : {'max' : '650px'},
       'screen700px' : {'max' : '700px'},
       'screen850px' : {'max' : '850px'},
       'screen920px' : {'max' : '920px'},
+      'screen1020px' : {'max' : '1020px'},
       'screen1050px' : {'max' : '1050px'},
     },  
   },
