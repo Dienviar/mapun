@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { MdOutlineClose } from 'react-icons/md'
 import Home from './Pages/Home';
 import About from './Pages/About';
 import News from './Pages/News';
@@ -12,6 +14,7 @@ import Officials from './Pages/Government/Officials';
 import Barangay from './Pages/Government/Barangay';
 import Contact from './Pages/Contact';
 import Nav from './Navigation/Nav';
+import NavBurger from './Navigation/NavBurger';
 
 function App() {
 
@@ -20,18 +23,18 @@ function App() {
   const [openMunicipality, setOpenMunicipality] = useState(false)
   const [openGovernment, setOpenGovernment] = useState(false)
 
-  console.log(pathname)
+  const [navBurger, setNavBurger] = useState(false)
 
   return (
     <>
-      <nav className='backdrop-blur-3xl sticky top-0 w-full h-20 z-50 bg-rgba_black_05 shadow-xl select-none'>
+      <nav className='sticky top-0 z-50 w-full h-20 shadow-xl select-none backdrop-blur-3xl bg-rgba_black_05'>
         {/* Logo holder */}
-        <div className='absolute left-5 w-20 h-full'>
+        <div className='absolute w-20 h-full left-5'>
           <img src={require('./asset/Logo/mapun_logo.png')} alt="Mapun Logo" className='w-full h-full p-1' />
         </div>
 
         {/* Nav button holder */}
-        <div className=''>
+        <div className='screen900px:hidden'>
           <Nav 
             pathname={pathname} 
             openMunicipality={openMunicipality}
@@ -42,6 +45,21 @@ function App() {
         </div>
 
         {/* Nav Haburger Button */}
+        <div className='hidden screen900px:block'> 
+          <div className='absolute right-0 flex items-center justify-center w-20 h-full'>
+            <GiHamburgerMenu onClick={() => setNavBurger(true)} className={`${navBurger && 'hidden'} w-10 h-10 text-white cursor-pointer hover:text-blue duration-300`}/>
+            <MdOutlineClose onClick={() => setNavBurger(false)} className={`${navBurger ? 'block' : 'hidden'}  w-10 h-10 text-white cursor-pointer hover:text-red duration-300`}/>
+          </div>
+
+          <NavBurger 
+            open={navBurger}
+            pathname={pathname} 
+            openMunicipality={openMunicipality}
+            setOpenMunicipality={setOpenMunicipality}
+            openGovernment={openGovernment}
+            setOpenGovernment={setOpenGovernment}            
+          />
+        </div>
       </nav>
 
       <Routes>

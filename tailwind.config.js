@@ -38,6 +38,7 @@ module.exports = {
         '400px' : '400px',
         '450px' : '450px',
         '500px' : '500px',
+        '570px' : '570px',
         '600px' : '600px',
         '700px' : '700px',
         '800px' : '800px',
@@ -57,6 +58,9 @@ module.exports = {
       },
       flexGrow: {
         '2': 2
+      },
+      inset: {
+        '1000px': '1000px',
       }
     },
     screens: {
@@ -68,6 +72,7 @@ module.exports = {
       'screen650px' : {'max' : '650px'},
       'screen700px' : {'max' : '700px'},
       'screen850px' : {'max' : '850px'},
+      'screen900px' : {'max' : '900px'},
       'screen920px' : {'max' : '920px'},
       'screen1020px' : {'max' : '1020px'},
       'screen1050px' : {'max' : '1050px'},

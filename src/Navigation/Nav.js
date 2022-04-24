@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Nav = ({pathname, openMunicipality, setOpenMunicipality, openGovernment, setOpenGovernment }) => {
   return (
-    <div className='absolute right-0 w-auto h-full flex items-center text-white drop-shadow-xl'>
+    <div className='absolute right-0 flex items-center w-auto h-full text-white drop-shadow-xl'>
         <NavLink to="/" className={`${pathname === "/" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>Home</NavLink>
 
         <NavLink to="/about" className={`${pathname === "/about" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>About</NavLink>
@@ -13,13 +13,13 @@ const Nav = ({pathname, openMunicipality, setOpenMunicipality, openGovernment, s
         <NavLink to="/services" className={`${pathname === "/services" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>Services</NavLink>
 
         <div onMouseLeave={() => setOpenMunicipality(false)} onMouseEnter={() => setOpenMunicipality(true)} className='w-auto h-full'>
-            <div className='w-full h-full flex justify-center items-center cursor-pointer duration-300'>
+            <div className='flex items-center justify-center w-full h-full duration-300 cursor-pointer'>
                 <p className={`${openMunicipality ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>
                     {
-                        pathname === "/municipality/economy" ? <span className='currentPage px-3'>Economy</span>
-                        : pathname === "/municipality/tourism" ? <span className='currentPage px-3'>Tourism</span>
-                        : pathname === "/municipality/education" ? <span className='currentPage px-3'>Education</span>
-                        : pathname === "/municipality/mapunday" ? <span className='currentPage px-3'>Mapun Day</span>
+                        pathname === "/municipality/economy" ? <span className='px-3 currentPage'>Economy</span>
+                        : pathname === "/municipality/tourism" ? <span className='px-3 currentPage'>Tourism</span>
+                        : pathname === "/municipality/education" ? <span className='px-3 currentPage'>Education</span>
+                        : pathname === "/municipality/mapunday" ? <span className='px-3 currentPage'>Mapun Day</span>
                         : "Municipality"
                     }
                 </p>
@@ -47,11 +47,11 @@ const Nav = ({pathname, openMunicipality, setOpenMunicipality, openGovernment, s
         </div>
 
         <div onMouseLeave={() => setOpenGovernment(false)} onMouseEnter={() => setOpenGovernment(true)} className='w-auto h-full'>
-            <div className='w-full h-full flex justify-center items-center cursor-pointer duration-300'>
+            <div className='flex items-center justify-center w-full h-full duration-300 cursor-pointer'>
                 <p className={`${openGovernment ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>
                     {
-                    pathname === "/government/officials" ? <span className='currentPage px-3'>Officials</span>
-                    : pathname === "/government/barangay" ? <span className='currentPage px-3'>Barangay</span>
+                    pathname === "/government/officials" ? <span className='px-3 currentPage'>Officials</span>
+                    : pathname === "/government/barangay" ? <span className='px-3 currentPage'>Barangay</span>
                     : "Government"
                     }
                 </p>

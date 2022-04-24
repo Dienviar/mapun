@@ -7,7 +7,7 @@ import { MdOutlineHomeRepairService } from 'react-icons/md'
 const CityDetails = () => {
   return (
     <section className='w-full h-auto mb-20'>
-        <article className='w-full h-auto flex justify-center items-center flex-wrap screen700px:flex-none'>
+        <article className='flex flex-wrap items-center justify-center w-full h-auto screen700px:flex-none'>
             <CityDetailsCard 
                 title={"History & Establishment"} 
                 desciption={"Take a look at the history of Mapun"} 
