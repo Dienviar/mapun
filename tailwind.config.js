@@ -71,6 +71,7 @@ module.exports = {
       'screen600px' : {'max' : '600px'},
       'screen650px' : {'max' : '650px'},
       'screen700px' : {'max' : '700px'},
+      'screen800px' : {'max' : '800px'},
       'screen850px' : {'max' : '850px'},
       'screen900px' : {'max' : '900px'},
       'screen920px' : {'max' : '920px'},
