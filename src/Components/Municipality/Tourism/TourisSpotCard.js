@@ -8,7 +8,7 @@ const TourisSpotCard = ({ title, context, image }) => {
         </div>
 
         <div className='w-full h-auto mt-5'>
-            <p className='text-semi_black text-2xl font-bold'>{title}</p>
+            <p className='text-blue text-2xl font-bold'>{title}</p>
 
             <p className='text-justify text-semi_black text-lg mt-2'>
                 {context}
