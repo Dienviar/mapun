@@ -173,9 +173,9 @@ code {
   background-position: top;
 }
 
-.bg-test{
-  background-image: url('./asset/Services/finance_legal.png');
+.mapunday-landing-bg{
+  background-image: url('./asset/Municipality/Landing/mapunday_landing_bg.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
 }
