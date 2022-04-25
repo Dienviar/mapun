@@ -17,6 +17,8 @@ import Nav from './Navigation/Nav';
 import NavBurger from './Navigation/NavBurger';
 import Footer from './Footer/Footer'
 
+import ServicesDetails from './SubPages/Services/ServicesDetails';
+
 function App() {
 
   const { pathname } = useLocation()
@@ -71,6 +73,7 @@ function App() {
         <Route path="/news" element={<News/>} />
 
         <Route path="/services" element={<Services/>} />
+        <Route path="/services/:title/:bg" element={<ServicesDetails/>}/>
 
         <Route path="/municipality/economy" element={<Economy/>} />
         <Route path="/municipality/tourism" element={<Tourism/>} />

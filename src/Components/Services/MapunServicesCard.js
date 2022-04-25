@@ -1,7 +1,9 @@
 import React from 'react'
 import Button from '@mui/material/Button';
+import { NavLink } from 'react-router-dom';
 
 const MapunServicesCard = ({title, description, bg}) => {
+  
   return (
     <div className={`relative m-2 sample w-300px h-350px flex items-center bg-blue rounded-xl ${bg} services-img-bg screen650px:w-full`}>
         <div className='w-full h-auto px-3'>
@@ -11,7 +13,7 @@ const MapunServicesCard = ({title, description, bg}) => {
 
 
         <div className='absolute flex justify-center w-full h-auto mt-2 bottom-6'>
-            <Button style={{ backgroundColor: "#82243C" }} variant="contained">Read More</Button>
+            <NavLink to={`/services/${title}/${bg}`}><Button style={{ backgroundColor: "#82243C" }} variant="contained">Read More</Button></NavLink>
         </div>
     </div>
   )
