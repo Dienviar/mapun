@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mapun/static/css/main.b1ba4086.css",
-    "main.js": "/mapun/static/js/main.bc49ed76.js",
+    "main.js": "/mapun/static/js/main.a54bb827.js",
     "static/js/787.e2156492.chunk.js": "/mapun/static/js/787.e2156492.chunk.js",
     "static/media/mapunday-1.jpg": "/mapun/static/media/mapunday-1.1032aaa6e08b2623b4eb.jpg",
     "static/media/mapunday-3.jpg": "/mapun/static/media/mapunday-3.e4febaf722398c6a196f.jpg",
@@ -57,11 +57,11 @@
     "static/media/health_medical.png": "/mapun/static/media/health_medical.df0cbafc2b6919251f82.png",
     "index.html": "/mapun/index.html",
     "main.b1ba4086.css.map": "/mapun/static/css/main.b1ba4086.css.map",
-    "main.bc49ed76.js.map": "/mapun/static/js/main.bc49ed76.js.map",
+    "main.a54bb827.js.map": "/mapun/static/js/main.a54bb827.js.map",
     "787.e2156492.chunk.js.map": "/mapun/static/js/787.e2156492.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1ba4086.css",
-    "static/js/main.bc49ed76.js"
+    "static/js/main.a54bb827.js"
   ]
 }
