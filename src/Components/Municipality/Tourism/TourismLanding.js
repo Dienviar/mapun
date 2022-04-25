@@ -4,7 +4,7 @@ import Landing from '../../Landing'
 const TourismLanding = () => {
   return (
     <section className='w-full h-auto'>
-      <Landing title={"Tourism"} bg={"economy-landing-bg"}/>
+      <Landing title={"Tourism"} bg={"tourism-landing-bg"}/>
     </section>
   )
 }
