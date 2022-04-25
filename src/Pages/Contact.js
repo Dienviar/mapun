@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { GoLocation } from 'react-icons/go'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsTelephone } from 'react-icons/bs'
@@ -6,6 +6,13 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
  
 const Contact = () => {
+
+    document.title = "Contact"
+    
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
+
   return (
     <main className='relative flex justify-center w-full h-auto'>
       <section className='flex justify-center h-auto px-5 mt-16 w-1000px screen1050px:grid'>
