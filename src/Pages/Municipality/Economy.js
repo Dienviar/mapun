@@ -1,8 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import EconomyLanding from '../../Components/Municipality/Economy/EconomyLanding'
+import EconomyDetails from '../../Components/Municipality/Economy/EconomyDetails'
+import FactsandFigure from '../../Components/Municipality/Economy/FactsandFigure'
 
 const Economy = () => {
+
+    document.title = "Economy"
+    
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
+
   return (
-    <div>Economy</div>
+    <main className='relative w-full h-auto'>
+      <EconomyLanding/>
+      <EconomyDetails/>
+      <FactsandFigure/>
+    </main>
   )
 }
 

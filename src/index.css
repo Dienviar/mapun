@@ -151,3 +151,10 @@ code {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.economy-landing-bg {
+  background-image: url('./asset//Municipality/Landing/economy_landing_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
