@@ -9,7 +9,7 @@ const OfficialsLanding = () => {
             </div>
 
             <div className='w-full h-auto flex items-center mt-10'>
-                <p className='text-xl text-semi_black'>
+                <p className='text-xl text-semi_black text-justify'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit a ultricies mauris justo facilisis odio quis. Quis lacus sit aliquam nisl, aenean. Dictum id purus feugiat sagittis eget quis at massa.
                 </p>
             </div>

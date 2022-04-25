@@ -12,6 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 code {
@@ -142,4 +143,11 @@ code {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+}
+
+.barangay_default {
+  background-image: url('./asset/Barangay/barangay_default_big.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '@mui/material/Button';
+import { NavLink } from 'react-router-dom';
 
 const BarangayListCard = ({ name }) => {
   return (
@@ -13,7 +14,7 @@ const BarangayListCard = ({ name }) => {
         </div>
 
         <div className='w-full h-auto flex justify-center items-center my-5'>
-            <Button variant="contained" style={{ backgroundColor: "#82243C" }} className='h-6'>Overview</Button>
+            <NavLink to={`/government/barangay/${name}`}><Button variant="contained" style={{ backgroundColor: "#82243C" }} className='h-6'>Overview</Button></NavLink>
         </div>
     </div>
   )

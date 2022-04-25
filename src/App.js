@@ -20,6 +20,7 @@ import Footer from './Footer/Footer'
 import ServicesDetails from './SubPages/Services/ServicesDetails';
 
 import OfficialsDetails from './SubPages/Government/Officials/OfficialsDetails';
+import BarangayDetails from './SubPages/Government/Barangay/BarangayDetails';
 
 function App() {
 
@@ -86,6 +87,7 @@ function App() {
         <Route path="/government/officials/:name/:position/:image" element={<OfficialsDetails/>} />
 
         <Route path="/government/barangay" element={<Barangay/>} />
+        <Route path="/government/barangay/:name" element={<BarangayDetails/>} />
 
         <Route path="/contact" element={<Contact/>} />
       </Routes>
