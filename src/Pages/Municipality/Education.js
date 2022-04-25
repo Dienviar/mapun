@@ -11,7 +11,7 @@ const Education = () => {
     }, [])
 
   return (
-    <main className='relative w-full h-auto'>
+    <main className='relative w-full h-auto -mt-20'>
       <section className='w-full h-auto'>
         <Landing title={"Education"} bg={"education-landing-bg"}/>
 

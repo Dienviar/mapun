@@ -12,7 +12,7 @@ const Economy = () => {
     }, [])
 
   return (
-    <main className='relative w-full h-auto'>
+    <main className='relative w-full h-auto -mt-20'>
       <EconomyLanding/>
       <EconomyDetails/>
       <FactsandFigure/>
