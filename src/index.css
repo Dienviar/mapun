@@ -153,21 +153,28 @@ code {
 }
 
 .economy-landing-bg {
-  background-image: url('./asset//Municipality/Landing/economy_landing_bg.png');
+  background-image: url('./asset/Municipality/Landing/economy_landing_bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .tourism-landing-bg{
-  background-image: url('./asset//Municipality/Landing/tourism_landing_bg.png');
+  background-image: url('./asset/Municipality/Landing/tourism_landing_bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .education-landing-bg{
-  background-image: url('./asset//Municipality/Landing/education_landing_bg.png');
+  background-image: url('./asset/Municipality/Landing/education_landing_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.bg-test{
+  background-image: url('./asset/Services/finance_legal.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

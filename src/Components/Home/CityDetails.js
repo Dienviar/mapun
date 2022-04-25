@@ -13,12 +13,16 @@ const CityDetails = () => {
                 desciption={"Take a look at the history of Mapun"} 
                 buttonDescp={"Read More"}
                 icon={<RiFileHistoryLine className='w-full h-full p-2 text-black'/>}
+                bg={"history_establishment.png"}
+                link={"/about"}
             />
             <CityDetailsCard 
                 title={"Explore Our Departments"} 
                 desciption={"Mapuan’s local department"} 
                 buttonDescp={"View Departments"}
                 icon={<BiBuildingHouse className='w-full h-full p-2 text-black'/>}
+                bg={"departments.png"}
+                link={"/government/officials"}
             />
 
             <CityDetailsCard 
@@ -26,6 +30,8 @@ const CityDetails = () => {
                 desciption={"Including online services!"} 
                 buttonDescp={"View Services"}
                 icon={<MdOutlineHomeRepairService className='w-full h-full p-2 text-black'/>}
+                bg={"finance_legal.png"}
+                link={"/services"}
             />
         </article>
     </section>
