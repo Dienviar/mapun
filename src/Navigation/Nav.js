@@ -8,8 +8,6 @@ const Nav = ({pathname, openMunicipality, setOpenMunicipality, openGovernment, s
 
         <NavLink to="/about" className={`${pathname === "/about" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>About</NavLink>
 
-        <NavLink to="/news" className={`${pathname === "/news" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>News</NavLink>
-
         <NavLink to="/services" className={`${pathname === "/services" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>Services</NavLink>
 
         <div onMouseLeave={() => setOpenMunicipality(false)} onMouseEnter={() => setOpenMunicipality(true)} className='w-auto h-full'>

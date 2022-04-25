@@ -80,8 +80,6 @@ function App() {
 
         <Route path="/about" element={<About/>} />
 
-        <Route path="/news" element={<News/>} />
-
         <Route path="/services" element={<Services/>} />
         <Route path="/services/:title/:bg" element={<ServicesDetails/>}/>
 
