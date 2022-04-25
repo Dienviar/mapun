@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import ServicesLanding from '../Components/Services/ServicesLanding'
 import MapunServices from '../Components/Services/MapunServices'
+import OnlineServices from '../Components/Services/OnlineServices'
 
 const Services = () => {
 
@@ -14,6 +15,7 @@ const Services = () => {
     <main className='relative w-full h-auto'>
       <ServicesLanding/>
       <MapunServices/>
+      <OnlineServices/>
     </main>
   )
 }
