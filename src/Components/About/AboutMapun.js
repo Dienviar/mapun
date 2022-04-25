@@ -37,7 +37,7 @@ const AboutMapun = () => {
                     <div className='flex w-full h-auto my-2 bg-blue rounded-xl'>
                         <div className='flex items-center justify-center h-auto px-2 w-28'>
                             <div className='flex items-center justify-center w-full h-28'>
-                                <img src={require('../../asset/AboutPage/about_culture1.png')} alt="Culture 1"/>
+                                <img src={require('../../asset/AboutPage/about_culture1.png')} alt="Culture 1" className='pointer-events-none'/>
                             </div>
                         </div>
 
@@ -51,7 +51,7 @@ const AboutMapun = () => {
                     <div className='flex w-full h-auto my-2 bg-blue rounded-xl'>
                         <div className='flex items-center justify-center h-auto px-2 w-28'>
                             <div className='flex items-center justify-center w-full h-28'>
-                                <img src={require('../../asset/AboutPage/about_culture2.png')} alt="Culture 2"/>
+                                <img src={require('../../asset/AboutPage/about_culture2.png')} alt="Culture 2" className='pointer-events-none'/>
                             </div>
                         </div>
 
@@ -65,7 +65,7 @@ const AboutMapun = () => {
                     <div className='flex w-full h-auto my-2 bg-blue rounded-xl'>
                         <div className='flex items-center justify-center h-auto px-2 w-28'>
                             <div className='flex items-center justify-center w-full h-28'>
-                                <img src={require('../../asset/AboutPage/about_culture3.png')} alt="Culture 3"/>
+                                <img src={require('../../asset/AboutPage/about_culture3.png')} alt="Culture 3" className='pointer-events-none'/>
                             </div>
                         </div>
 

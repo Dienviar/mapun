@@ -4,7 +4,7 @@ const TourisSpotCard = ({ title, context, image }) => {
   return (
     <div className='w-1000px h-auto'>
         <div className='w-full h-auto'>
-            <img src={require(`../../../asset/Municipality/Tourism/${image}`)} alt="" />
+            <img src={require(`../../../asset/Municipality/Tourism/${image}`)} alt="" className='pointer-events-none' />
         </div>
 
         <div className='w-full h-auto mt-5'>

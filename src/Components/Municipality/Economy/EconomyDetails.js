@@ -11,7 +11,7 @@ const EconomyDetails = () => {
 
         <article className='w-full h-auto flex justify-center'>
             <div className='w-1000px h-auto flex justify-center'>
-                <img src={require('../../../asset/Municipality/Economy/economy.png')} alt="Economy" />
+                <img src={require('../../../asset/Municipality/Economy/economy.png')} alt="Economy" className='pointer-events-none' />
             </div>
         </article>
 

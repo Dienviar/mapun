@@ -6,7 +6,7 @@ const BarangayListCard = ({ name }) => {
   return (
     <div className='w-250px h-auto bg-white shadow-2xl border-2 rounded-xl m-5 screen600px:w-full'>
         <div className='w-full h-150px screen600px:h-auto'>
-            <img src={require('../../../asset/Barangay/barangay_default.png')} alt="Barangay" className='w-full h-full' />
+            <img src={require('../../../asset/Barangay/barangay_default.png')} alt="Barangay" className='w-full h-full pointer-events-none' />
         </div>
 
         <div className='w-full h-auto flex justify-center items-center mt-5'>

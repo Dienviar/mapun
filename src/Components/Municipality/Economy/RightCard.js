@@ -9,7 +9,7 @@ const RightCard = ({ title, context, image }) => {
 
         <div className='w-full h-auto flex justify-center mt-5 screen850px:grid'>
             <div className='w-auto h-full bg-green-500 screen850px:mt-5 screen850px:order-last'>
-                <img src={require(`../../../asset/Municipality/Economy/${image}`)} alt={title} className='screen850px:w-full screen850px:h-full' />
+                <img src={require(`../../../asset/Municipality/Economy/${image}`)} alt={title} className='pointer-events-none screen850px:w-full screen850px:h-full' />
             </div>
                     
             <div className='w-full h-full'>

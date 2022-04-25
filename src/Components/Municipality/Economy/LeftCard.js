@@ -15,7 +15,7 @@ const LeftCard = ({ title, context, image }) => {
             </div>
 
             <div className='w-auto h-full bg-green-500 screen850px:mt-5'>
-                <img src={require(`../../../asset/Municipality/Economy/${image}`)} alt={title} className='screen850px:w-full screen850px:h-full' />
+                <img src={require(`../../../asset/Municipality/Economy/${image}`)} alt={title} className='pointer-events-none screen850px:w-full screen850px:h-full' />
             </div>
         </div>
     </div>
