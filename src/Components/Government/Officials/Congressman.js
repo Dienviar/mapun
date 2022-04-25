@@ -10,7 +10,7 @@ const Congressman = () => {
 
         <article className='w-full h-auto flex justify-center mt-5'>
             <div className='w-full h-auto flex justify-center items-center'>
-                <OfficialsCard name={"Rashidin H. Matba"} image={"congressman.png"}/>
+                <OfficialsCard name={"Rashidin H. Matba"} image={"congressman.png"} position={"Congressman"}/>
             </div>
         </article>
     </section>

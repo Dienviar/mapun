@@ -10,7 +10,7 @@ const Mayor = () => {
 
         <article className='w-full h-auto flex justify-center mt-5'>
             <div className='w-full h-auto flex justify-center items-center'>
-                <OfficialsCard name={"Suraida F. Muksin"} image={"mayor.png"}/>
+                <OfficialsCard name={"Suraida F. Muksin"} image={"mayor.png"} position={"Mayor"}/>
             </div>
         </article>
     </section>

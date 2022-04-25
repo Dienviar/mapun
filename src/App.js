@@ -19,6 +19,8 @@ import Footer from './Footer/Footer'
 
 import ServicesDetails from './SubPages/Services/ServicesDetails';
 
+import OfficialsDetails from './SubPages/Government/Officials/OfficialsDetails';
+
 function App() {
 
   const { pathname } = useLocation()
@@ -81,6 +83,8 @@ function App() {
         <Route path="/municipality/mapunday" element={<MapunDay/>} />
 
         <Route path="/government/officials" element={<Officials/>} />
+        <Route path="/government/officials/:name/:position/:image" element={<OfficialsDetails/>} />
+
         <Route path="/government/barangay" element={<Barangay/>} />
 
         <Route path="/contact" element={<Contact/>} />

@@ -10,15 +10,15 @@ const Councilors = () => {
 
         <article className='w-full h-auto flex justify-center mt-5'>
             <div className='w-1000px h-auto flex justify-center flex-wrap'>
-                <OfficialsCard name={"Chernie Said"} image={"councilor1.png"}/>
-                <OfficialsCard name={"Mukdim Japaal"} image={"councilor2.png"}/>
-                <OfficialsCard name={"Macky Sarapil"} image={"councilor3.png"}/>
-                <OfficialsCard name={"Markaren Canizares"} image={"councilor4.png"}/>
+                <OfficialsCard name={"Chernie Said"} image={"councilor1.png"} position={"Councilor"}/>
+                <OfficialsCard name={"Mukdim Japaal"} image={"councilor2.png"} position={"Councilor"}/>
+                <OfficialsCard name={"Macky Sarapil"} image={"councilor3.png"} position={"Councilor"}/>
+                <OfficialsCard name={"Markaren Canizares"} image={"councilor4.png"} position={"Councilor"}/>
 
-                <OfficialsCard name={"Rambie Sadjiril"} image={"councilor5.png"}/>
-                <OfficialsCard name={"Gayu Gubih"} image={"councilor6.png"}/>
-                <OfficialsCard name={"Charles Lao"} image={"councilor7.png"}/>
-                <OfficialsCard name={"Omar Mockthar Abdulpatta"} image={"councilor8.png"}/>              
+                <OfficialsCard name={"Rambie Sadjiril"} image={"councilor5.png"} position={"Councilor"}/>
+                <OfficialsCard name={"Gayu Gubih"} image={"councilor6.png"} position={"Councilor"}/>
+                <OfficialsCard name={"Charles Lao"} image={"councilor7.png"} position={"Councilor"}/>
+                <OfficialsCard name={"Omar Mockthar Abdulpatta"} image={"councilor8.png"} position={"Councilor"}/>              
             </div>
         </article>
     </section>
