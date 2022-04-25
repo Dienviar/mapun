@@ -22,6 +22,8 @@ import ServicesDetails from './SubPages/Services/ServicesDetails';
 import OfficialsDetails from './SubPages/Government/Officials/OfficialsDetails';
 import BarangayDetails from './SubPages/Government/Barangay/BarangayDetails';
 
+import ScrollToTop from './ScrollToTop';
+
 function App() {
 
   const { pathname } = useLocation()
@@ -32,6 +34,19 @@ function App() {
   const [navBurger, setNavBurger] = useState(false)
 
   const location = useLocation()
+
+  const [showToTop, setShowToTop] = useState(false)
+
+  window.addEventListener('scroll', () => {
+    let scroll =  window.pageYOffset
+    
+    if(scroll > 0) {
+      setShowToTop(true)
+    }
+    else{
+      setShowToTop(false)
+    }
+  })
 
   useEffect(() => {
     // runs on location, i.e. route, change
@@ -98,6 +113,8 @@ function App() {
       </Routes>
 
       <Footer/>
+
+      <ScrollToTop showToTop={showToTop}/>
     </>
   );
 }
