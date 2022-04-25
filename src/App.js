@@ -39,7 +39,7 @@ function App() {
 
   window.addEventListener('scroll', () => {
     let scroll =  window.pageYOffset
-    
+
     if(scroll > 0) {
       setShowToTop(true)
     }
@@ -91,7 +91,7 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/mapun" element={<Home/>} />
 
         <Route path="/about" element={<About/>} />
 

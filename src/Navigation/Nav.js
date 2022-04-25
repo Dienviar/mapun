@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Nav = ({pathname, openMunicipality, setOpenMunicipality, openGovernment, setOpenGovernment }) => {
   return (
     <article className='absolute right-0 flex items-center w-auto h-full text-white drop-shadow-xl'>
-        <NavLink to="/" className={`${pathname === "/" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>Home</NavLink>
+        <NavLink to="/mapun" className={`${pathname === "/" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>Home</NavLink>
 
         <NavLink to="/about" className={`${pathname === "/about" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>About</NavLink>
 

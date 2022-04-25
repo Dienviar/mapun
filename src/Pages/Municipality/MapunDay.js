@@ -3,7 +3,7 @@ import Landing from '../../Components/Landing'
 
 const MapunDay = () => {
   return (
-    <main className='relative w-full h-full'>
+    <main className='relative w-full h-full -mt-20'>
         <section className="mapun-day">
           <Landing title={"Mapun Day"} bg={"mapunday-landing-bg"}/>
 

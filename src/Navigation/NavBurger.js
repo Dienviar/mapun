@@ -6,7 +6,7 @@ const NavBurger = ({open, pathname, openMunicipality, setOpenMunicipality, openG
     <article className={`fixed ${open ? 'left-0' : '-left-1000px '} flex justify-center top-20 w-full h-500px bg-black duration-300 overflow-y-auto`}>
         <div className='w-full h-auto'>
             <div className='flex items-center w-full h-20'>
-                <NavLink to="/" className={`${pathname === "/" ? 'currentPage' : 'relative navHover'} relative text-xl text-white w-full h-full flex items-center px-5`}>Home</NavLink>
+                <NavLink to="/mapun" className={`${pathname === "/" ? 'currentPage' : 'relative navHover'} relative text-xl text-white w-full h-full flex items-center px-5`}>Home</NavLink>
             </div>
 
             <div className='flex items-center w-full h-20'>
