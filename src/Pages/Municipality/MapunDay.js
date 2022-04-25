@@ -11,12 +11,12 @@ const MapunDay = () => {
             <div className='w-1000px h-auto flex screen850px:grid'>
               <div className="w-full flex flex-row mx-auto space-x-1 m-5 place-content-center">
                   <div className="flex flex-col space-y-1">
-                      <img src={require('../../asset/Municipality/MapunDay/mapunday-1.jpg')} class="w-48 md:w-96" alt=""/>
-                      <img src={require('../../asset/Municipality/MapunDay/mapunday-3.jpg')} class="w-48 h-60 md:w-96 md:h-96" alt=""/>
+                      <img src={require('../../asset/Municipality/MapunDay/mapunday-1.jpg')} className="w-48 md:w-96" alt=""/>
+                      <img src={require('../../asset/Municipality/MapunDay/mapunday-3.jpg')} className="w-48 h-60 md:w-96 md:h-96" alt=""/>
                   </div>
                   <div className="flex flex-col space-y-1">
-                      <img src={require('../../asset/Municipality/MapunDay/mapunday-2.jpg')} class="w-48 h-60 md:w-96 md:h-96" alt=""/>
-                      <img src={require('../../asset/Municipality/MapunDay/mapunday-4.jpg')} class="w-48 md:w-96" alt=""/>
+                      <img src={require('../../asset/Municipality/MapunDay/mapunday-2.jpg')} className="w-48 h-60 md:w-96 md:h-96" alt=""/>
+                      <img src={require('../../asset/Municipality/MapunDay/mapunday-4.jpg')} className="w-48 md:w-96" alt=""/>
                   </div>
               </div>
 
