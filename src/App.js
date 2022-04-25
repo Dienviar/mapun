@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdOutlineClose } from 'react-icons/md'
@@ -30,6 +30,13 @@ function App() {
   const [openGovernment, setOpenGovernment] = useState(false)
 
   const [navBurger, setNavBurger] = useState(false)
+
+  const location = useLocation()
+
+  useEffect(() => {
+    // runs on location, i.e. route, change
+    setNavBurger(false)
+  }, [location])
 
   return (
     <>
