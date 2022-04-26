@@ -180,6 +180,13 @@ code {
   background-position: center;
 }
 
+.department-landing-bg {
+  background-image: url('./asset/DepartmentPage/department_landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .lds-roller {
   display: inline-block;
   position: relative;

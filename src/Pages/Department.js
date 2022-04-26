@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import LandingDepartment from '../Components/Department/LandingDepartment'
 
 const Department = () => {
 
@@ -10,7 +11,7 @@ const Department = () => {
 
   return (
     <main className='relative w-full h-auto'>
-
+      <LandingDepartment/>
     </main>
   )
 }
