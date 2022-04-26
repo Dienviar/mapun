@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/mapun/static/css/main.b1ba4086.css",
-    "main.js": "/mapun/static/js/main.a54bb827.js",
+    "main.css": "/mapun/static/css/main.fc203bf4.css",
+    "main.js": "/mapun/static/js/main.a5da32b5.js",
     "static/js/787.e2156492.chunk.js": "/mapun/static/js/787.e2156492.chunk.js",
     "static/media/mapunday-1.jpg": "/mapun/static/media/mapunday-1.1032aaa6e08b2623b4eb.jpg",
     "static/media/mapunday-3.jpg": "/mapun/static/media/mapunday-3.e4febaf722398c6a196f.jpg",
     "static/media/mapunday-2.jpg": "/mapun/static/media/mapunday-2.9e07077e33dbc1c52879.jpg",
     "static/media/mangroves_widlife.png": "/mapun/static/media/mangroves_widlife.7099b8164d342a690e05.png",
     "static/media/mapunday-4.jpg": "/mapun/static/media/mapunday-4.d4ec6f785dad013bf085.jpg",
+    "static/media/department_landing.jpg": "/mapun/static/media/department_landing.02567356b541622541e9.jpg",
     "static/media/tourism_landing_bg.png": "/mapun/static/media/tourism_landing_bg.655c7e56264a5ff0b67c.png",
     "static/media/lake.png": "/mapun/static/media/lake.1245073115aac295ba6d.png",
     "static/media/diving_spots.png": "/mapun/static/media/diving_spots.b2fed3f450885c994267.png",
@@ -56,12 +57,12 @@
     "static/media/councilor6.png": "/mapun/static/media/councilor6.85eca25ad532efd15ae0.png",
     "static/media/health_medical.png": "/mapun/static/media/health_medical.df0cbafc2b6919251f82.png",
     "index.html": "/mapun/index.html",
-    "main.b1ba4086.css.map": "/mapun/static/css/main.b1ba4086.css.map",
-    "main.a54bb827.js.map": "/mapun/static/js/main.a54bb827.js.map",
+    "main.fc203bf4.css.map": "/mapun/static/css/main.fc203bf4.css.map",
+    "main.a5da32b5.js.map": "/mapun/static/js/main.a5da32b5.js.map",
     "787.e2156492.chunk.js.map": "/mapun/static/js/787.e2156492.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1ba4086.css",
-    "static/js/main.a54bb827.js"
+    "static/css/main.fc203bf4.css",
+    "static/js/main.a5da32b5.js"
   ]
 }
