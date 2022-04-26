@@ -4,7 +4,6 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdOutlineClose } from 'react-icons/md'
 import Home from './Pages/Home';
 import About from './Pages/About';
-import News from './Pages/News';
 import Services from './Pages/Services';
 import Economy from './Pages/Municipality/Economy';
 import Tourism from './Pages/Municipality/Tourism';
