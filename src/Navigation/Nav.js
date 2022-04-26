@@ -6,6 +6,8 @@ const Nav = ({pathname, openMunicipality, setOpenMunicipality, openGovernment, s
     <article className='absolute right-0 flex items-center w-auto h-full text-white drop-shadow-xl'>
         <NavLink to="/mapun" className={`${pathname === "/" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>Home</NavLink>
 
+        <NavLink to="/department" className={`${pathname === "/department" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>Department</NavLink>
+
         <NavLink to="/about" className={`${pathname === "/about" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>About</NavLink>
 
         <NavLink to="/services" className={`${pathname === "/services" ? 'currentPage' : 'relative navHover'} relative h-full flex items-center px-5`}>Services</NavLink>

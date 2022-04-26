@@ -10,6 +10,10 @@ const NavBurger = ({open, pathname, openMunicipality, setOpenMunicipality, openG
             </div>
 
             <div className='flex items-center w-full h-20'>
+                <NavLink to="/department" className={`${pathname === "/department" ? 'currentPage' : 'relative navHover'} relative text-xl text-white w-full h-full flex items-center px-5`}>Department</NavLink>
+            </div>
+
+            <div className='flex items-center w-full h-20'>
                <NavLink to="/about" className={`${pathname === "/about" ? 'currentPage' : 'relative navHover'} relative text-xl text-white w-full h-full flex items-center px-5`}>About</NavLink>
             </div>
 

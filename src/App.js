@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdOutlineClose } from 'react-icons/md'
 import Home from './Pages/Home';
+import Department from './Pages/Department';
 import About from './Pages/About';
 import Services from './Pages/Services';
 import Economy from './Pages/Municipality/Economy';
@@ -91,6 +92,8 @@ function App() {
 
       <Routes>
         <Route path="/mapun" element={<Home/>} />
+
+        <Route path="/department" element={<Department/>} />
 
         <Route path="/about" element={<About/>} />
 
