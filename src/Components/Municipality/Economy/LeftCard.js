@@ -2,14 +2,14 @@ import React from 'react'
 
 const LeftCard = ({ title, context, image }) => {
   return (
-    <div className='w-1000px h-auto px-3 my-20'>
+    <div className='h-auto px-3 my-20 w-1000px'>
         <div className='w-full h-auto'>
-            <p className='text-blue text-2xl'>{title}</p>
+            <p className='text-2xl text-blue'>{title}</p>
         </div>
 
-        <div className='w-full h-auto flex justify-center mt-5 screen850px:grid'>
+        <div className='flex justify-center w-full h-auto mt-5 screen850px:grid'>
             <div className='w-full h-full'>
-                <p className='text-left text-lg'>
+                <p className='text-lg text-left'>
                    {context}
                 </p>
             </div>
