@@ -1,28 +1,46 @@
+import React  from 'react'
 import { useState, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdOutlineClose } from 'react-icons/md'
-import Home from './Pages/Home';
-import Department from './Pages/Department';
-import About from './Pages/About';
-import Services from './Pages/Services';
-import Economy from './Pages/Municipality/Economy';
-import Tourism from './Pages/Municipality/Tourism';
-import Education from './Pages/Municipality/Education';
-import MapunDay from './Pages/Municipality/MapunDay';
-import Officials from './Pages/Government/Officials';
-import Barangay from './Pages/Government/Barangay';
-import Contact from './Pages/Contact';
+// import Home from './Pages/Home';
+// import Department from './Pages/Department';
+// import About from './Pages/About';
+// import Services from './Pages/Services';
+// import Economy from './Pages/Municipality/Economy';
+// import Tourism from './Pages/Municipality/Tourism';
+// import Education from './Pages/Municipality/Education';
+// import MapunDay from './Pages/Municipality/MapunDay';
+// import Officials from './Pages/Government/Officials';
+// import Barangay from './Pages/Government/Barangay';
+// import Contact from './Pages/Contact';
 import Nav from './Navigation/Nav';
 import NavBurger from './Navigation/NavBurger';
 import Footer from './Footer/Footer'
 
-import ServicesDetails from './SubPages/Services/ServicesDetails';
+// import ServicesDetails from './SubPages/Services/ServicesDetails';
 
-import OfficialsDetails from './SubPages/Government/Officials/OfficialsDetails';
-import BarangayDetails from './SubPages/Government/Barangay/BarangayDetails';
+// import OfficialsDetails from './SubPages/Government/Officials/OfficialsDetails';
+// import BarangayDetails from './SubPages/Government/Barangay/BarangayDetails';
 
 import ScrollToTop from './ScrollToTop';
+
+import Spinner from './Spinner';
+
+const Home = React.lazy(() => import('./Pages/Home'))
+const About = React.lazy(() => import('./Pages/About'))
+const Department = React.lazy(() => import('./Pages/Department'))
+const Services = React.lazy(() => import('./Pages/Services'))
+const ServicesDetails = React.lazy(() => import('./SubPages/Services/ServicesDetails'))
+const Economy = React.lazy(() => import('./Pages/Municipality/Economy'))
+const Tourism = React.lazy(() => import('./Pages/Municipality/Tourism'))
+const Education = React.lazy(() => import('./Pages/Municipality/Education'))
+const MapunDay = React.lazy(() => import('./Pages/Municipality/MapunDay'))
+const Officials = React.lazy(() => import('./Pages/Government/Officials'))
+const OfficialsDetails = React.lazy(() => import('./SubPages/Government/Officials/OfficialsDetails'))
+const Barangay = React.lazy(() => import('./Pages/Government/Barangay'))
+const BarangayDetails = React.lazy(() => import('./SubPages/Government/Barangay/BarangayDetails'))
+const Contact = React.lazy(() => import('./Pages/Contact'))
 
 function App() {
 
@@ -91,27 +109,27 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="/mapun" element={<Home/>} />
+        <Route path="/mapun" element={<React.Suspense fallback={<Spinner/>}><Home/></React.Suspense>} />
 
-        <Route path="/department" element={<Department/>} />
+        <Route path="/department" element={<React.Suspense fallback={<Spinner/>}><Department/></React.Suspense>} />
 
-        <Route path="/about" element={<About/>} />
+        <Route path="/about" element={<React.Suspense fallback={<Spinner/>}><About/></React.Suspense>} />
 
-        <Route path="/services" element={<Services/>} />
-        <Route path="/services/:title/:bg" element={<ServicesDetails/>}/>
+        <Route path="/services" element={<React.Suspense fallback={<Spinner/>}><Services/></React.Suspense>} />
+        <Route path="/services/:title/:bg" element={<React.Suspense fallback={<Spinner/>}><ServicesDetails/></React.Suspense>}/>
 
-        <Route path="/municipality/economy" element={<Economy/>} />
-        <Route path="/municipality/tourism" element={<Tourism/>} />
-        <Route path="/municipality/education" element={<Education/>} />
-        <Route path="/municipality/mapunday" element={<MapunDay/>} />
+        <Route path="/municipality/economy" element={<React.Suspense fallback={<Spinner/>}><Economy/></React.Suspense>} />
+        <Route path="/municipality/tourism" element={<React.Suspense fallback={<Spinner/>}><Tourism/></React.Suspense>} />
+        <Route path="/municipality/education" element={<React.Suspense fallback={<Spinner/>}><Education/></React.Suspense>} />
+        <Route path="/municipality/mapunday" element={<React.Suspense fallback={<Spinner/>}><MapunDay/></React.Suspense>} />
 
-        <Route path="/government/officials" element={<Officials/>} />
-        <Route path="/government/officials/:name/:position/:image" element={<OfficialsDetails/>} />
+        <Route path="/government/officials" element={<React.Suspense fallback={<Spinner/>}><Officials/></React.Suspense>} />
+        <Route path="/government/officials/:name/:position/:image" element={<React.Suspense fallback={<Spinner/>}><OfficialsDetails/></React.Suspense>} />
 
-        <Route path="/government/barangay" element={<Barangay/>} />
-        <Route path="/government/barangay/:name" element={<BarangayDetails/>} />
+        <Route path="/government/barangay" element={<React.Suspense fallback={<Spinner/>}><Barangay/></React.Suspense>} />
+        <Route path="/government/barangay/:name" element={<React.Suspense fallback={<Spinner/>}><BarangayDetails/></React.Suspense>} />
 
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="/contact" element={<React.Suspense fallback={<Spinner/>}><Contact/></React.Suspense>} />
       </Routes>
 
       <Footer/>
