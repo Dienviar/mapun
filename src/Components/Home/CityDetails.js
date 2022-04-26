@@ -22,7 +22,7 @@ const CityDetails = () => {
                 buttonDescp={"View Departments"}
                 icon={<BiBuildingHouse className='w-full h-full p-2 text-black'/>}
                 bg={"departments.png"}
-                link={"/government/officials"}
+                link={"/department"}
             />
 
             <CityDetailsCard 
